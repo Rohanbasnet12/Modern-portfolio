@@ -372,6 +372,10 @@ html {
     transform-origin: center;
 }
 
+a {
+    background-color: transparent;
+}
+
 .service-footer p {
     opacity: .6;
     font-size: .9rem;

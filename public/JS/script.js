@@ -162,6 +162,8 @@ let menuLinks = menuList.querySelectorAll('a');
 menuLinks.forEach(link => {
     link.addEventListener('click', event => {
         menu.classList.add('menu-dragDown');
+        openBtn.style.display = 'block';
+        closeBtn.style.display = 'none';
     });
 });
 
